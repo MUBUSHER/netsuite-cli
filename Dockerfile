@@ -9,7 +9,7 @@ ADD com.netsuite.ide.core_2017.2.0.jar .
 ADD pom.xml .
 ADD sdfcli .
 
-RUN apk update && apk add openjdk8 && apk add expect
+RUN apk update && apk add openjdk8
 
 ENV JAVA_HOME /usr/lib/jvm/java-1.8-openjdk
 ENV PATH "$PATH:/opt/ns-cli"
