@@ -1,7 +1,7 @@
 FROM alpine:latest
 
 LABEL description="NetSuite CLI"
-LABEL version="17.1"
+LABEL version="17.2"
 
 WORKDIR /opt/ns-cli 
 
