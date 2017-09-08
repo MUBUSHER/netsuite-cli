@@ -1,0 +1,2 @@
+#!/bin/sh
+mvn -f /opt/ns-cli/pom.xml exec:java -Dexec.args="$*"
