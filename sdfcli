@@ -1,2 +1,3 @@
 #!/bin/sh
-mvn -f /opt/ns-cli/pom.xml exec:java -Dexec.args="$*"
+#mvn -f /opt/ns-cli/pom.xml exec:java -Dexec.args="$*"
+java -jar /opt/ns-cli/target/sdf-cli-2017.1.2-jar-with-dependencies.jar $*
