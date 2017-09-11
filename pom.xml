@@ -4,7 +4,7 @@
 
     <groupId>com.netsuite</groupId>
     <artifactId>sdf-cli</artifactId>
-    <version>2017.1.2</version>
+    <version>2017.2.0</version>
 
     <name>Netsuite SDF CLI</name>
 
