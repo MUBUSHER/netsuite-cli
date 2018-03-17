@@ -19,6 +19,6 @@ RUN apt install maven -y
 RUN sh /opt/ns-cli/install-core.sh
 RUN mvn package
 
-RUN apt install libxml2-utils -y
+RUN apt install libxml2-utils -y && apt install curl -y
 
 CMD sh sdfcli -h 
